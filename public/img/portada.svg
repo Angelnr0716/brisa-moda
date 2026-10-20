@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hero de moda aesthetic</title><desc id="desc">Banner de tienda de ropa con paleta crema, rosa y negro, prendas colgadas y texto promocional.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7f0"/><stop offset="1" stop-color="#ead3d0"/></linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b52d63"/><stop offset="1" stop-color="#8e234f"/></linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf3"/><stop offset="1" stop-color="#dfd2c9"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#563a40" flood-opacity=".17"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 0H205C165 118 102 164 0 185Z" fill="#d98b9c" opacity=".8"/><path d="M0 0H150C119 88 75 115 0 134Z" fill="#f8e7df"/>
+  <path d="M1600 0H1410C1440 120 1500 154 1600 184Z" fill="#cf8495" opacity=".8"/>
+  <path d="M0 690C125 660 154 766 260 900H0Z" fill="#d98b9c"/><path d="M0 750C78 728 108 800 160 900H0Z" fill="#f8e7df"/>
+  <g fill="#b52d63"><path d="M594 111l8 23 23 8-23 8-8 23-8-23-23-8 23-8Z"/><path d="M1418 330l7 20 20 7-20 7-7 20-7-20-20-7 20-7Z"/><path d="M451 755l7 20 20 7-20 7-7 20-7-20-20-7 20-7Z"/></g>
+  <g stroke="#b52d63" stroke-width="7" stroke-linecap="round"><path d="M84 180l-16-31M109 170l-4-34M66 205l-31-5"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#282326">
+    <text x="95" y="300" font-size="80" font-style="italic" font-family="cursive">Viste tu estilo</text>
+    <text x="82" y="398" font-size="91" font-weight="900" letter-spacing="-3">con <tspan fill="#ad2f60">actitud</tspan></text>
+    <path d="M385 424Q540 395 700 423" fill="none" stroke="#ad2f60" stroke-width="7" stroke-linecap="round"/>
+    <text x="105" y="490" font-size="27" letter-spacing="3">Moda actual, calidad premium</text>
+    <text x="105" y="531" font-size="27" letter-spacing="3">y tendencias en un solo lugar.</text>
+  </g>
+  <g filter="url(#shadow)"><rect x="204" y="585" width="335" height="76" rx="38" fill="url(#pink)"/><g stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="244" cy="642" r="4"/><circle cx="270" cy="642" r="4"/><path d="M230 609h12l9 27h27l8-19h-39M246 620h34M250 628h27"/></g><text x="296" y="634" fill="#fff" font-family="Arial, sans-serif" font-size="24">Comprar ahora →</text></g>
+  <!-- Clothing rail -->
+  <g stroke="#292427" stroke-width="12" fill="none" stroke-linecap="round"><path d="M900 178V100Q900 54 946 54H1508Q1542 54 1542 91V742"/><path d="M936 139H1514" stroke-width="6"/></g>
+  <!-- hanger hooks -->
+  <g fill="none" stroke="#b9a08c" stroke-width="7" stroke-linecap="round"><path d="M975 139q-15-38 7-44q20-3 14 20"/><path d="M1110 139q-15-38 7-44q20-3 14 20"/><path d="M1240 139q-15-38 7-44q20-3 14 20"/><path d="M1372 139q-15-38 7-44q20-3 14 20"/><path d="M1492 139q-15-38 7-44q20-3 14 20"/></g>
+  <!-- cream hoodie -->
+  <g filter="url(#shadow)"><path d="M890 200Q910 173 955 182L1000 203L1045 190Q1080 190 1102 230L1150 324L1118 351L1092 318L1101 590Q1040 626 899 600L905 319L875 355L844 329Z" fill="url(#hoodie)" stroke="#d9c9bf" stroke-width="3"/><path d="M910 208Q920 158 968 166Q1010 172 1018 207L994 239L947 239Z" fill="#f8eee5" stroke="#d6c5ba" stroke-width="3"/><path d="M965 233l-7 56M986 233l9 56" stroke="#cbb9ad" stroke-width="4"/><path d="M1014 359v205" stroke="#d1c1b7" stroke-width="3"/><path d="M1045 275l25 10-8 15-25-10Z" fill="#f2e6dd"/></g>
+  <!-- black tee -->
+  <path d="M1087 214Q1123 187 1162 205L1193 226L1231 213Q1264 213 1281 250L1314 323L1287 342L1262 316L1270 596Q1203 618 1137 594L1144 316L1118 344L1091 324Z" fill="#242126" stroke="#171519" stroke-width="3"/>
+  <circle cx="1190" cy="304" r="21" fill="none" stroke="#eee1d9" stroke-width="2"/><path d="M1169 304h42M1190 283q-13 21 0 42M1190 283q13 21 0 42" fill="none" stroke="#eee1d9" stroke-width="2"/>
+  <!-- rose tee -->
+  <path d="M1230 225Q1261 202 1292 219L1320 238L1353 226Q1383 229 1396 263L1425 326L1399 344L1376 318L1382 588Q1325 609 1265 591L1270 318L1247 343L1222 326Z" fill="#c77e91" stroke="#b86c80" stroke-width="3"/>
+  <!-- white tee -->
+  <path d="M1362 241Q1391 218 1420 235L1445 251L1478 240Q1505 241 1518 273L1542 330L1519 346L1500 322L1505 580Q1454 599 1397 583L1402 322L1380 345L1357 329Z" fill="#fff7f0" stroke="#e2d3cb" stroke-width="3"/>
+  <!-- plant -->
+  <g stroke="#617d4b" stroke-width="5" fill="#799563"><path d="M741 680Q760 583 818 514M763 652Q715 590 696 567M784 606Q842 565 864 548M748 628Q735 552 752 523" fill="none"/><ellipse cx="700" cy="562" rx="28" ry="13" transform="rotate(40 700 562)"/><ellipse cx="751" cy="534" rx="27" ry="13" transform="rotate(-45 751 534)"/><ellipse cx="817" cy="516" rx="31" ry="14" transform="rotate(-28 817 516)"/><ellipse cx="857" cy="550" rx="29" ry="13" transform="rotate(-28 857 550)"/><ellipse cx="738" cy="600" rx="28" ry="13" transform="rotate(30 738 600)"/><ellipse cx="789" cy="579" rx="29" ry="13" transform="rotate(-35 789 579)"/></g>
+  <path d="M690 674H805L793 755Q749 778 704 755Z" fill="#f7f0e8" stroke="#d9c8bd" stroke-width="3"/>
+  <!-- display plinth -->
+  <path d="M520 823L1600 823V900H520Z" fill="#e5d5d0"/><path d="M520 823H1600" stroke="#d3c0bb" stroke-width="4"/>
+  <!-- sneakers -->
+  <g filter="url(#shadow)"><path d="M590 789Q620 773 655 728L696 692Q717 686 736 709L782 759Q820 773 858 787Q881 797 873 817H600Q574 810 590 789Z" fill="#f8f4f0" stroke="#c9bfc0" stroke-width="4"/><path d="M595 808Q710 822 872 807L870 823Q846 838 615 831Q587 828 595 808Z" fill="#d6cdd0"/><path d="M671 737L709 764L742 760M688 721L725 748L755 744M709 706L743 730L773 727" fill="none" stroke="#c4b8bd" stroke-width="5" stroke-linecap="round"/><path d="M647 773L704 780L733 770" fill="none" stroke="#d8ced0" stroke-width="6"/></g>
+  <!-- folded garments -->
+  <g filter="url(#shadow)"><rect x="1230" y="630" width="330" height="65" rx="12" fill="#d8d1d0"/><rect x="1218" y="691" width="342" height="66" rx="12" fill="#d38da0"/><rect x="1230" y="753" width="330" height="63" rx="12" fill="#29262b"/><g fill="none" stroke="#383339" stroke-width="3"><circle cx="1400" cy="661" r="18"/><path d="M1382 661h36M1400 643q-10 18 0 36M1400 643q10 18 0 36"/></g><path d="M1379 721l7 12 14-3-7 12 8 11-14-3-8 11-1-14-13-5 13-5Z" fill="#fff0e9"/><path d="M1390 773l10-10 10 10-4 0v13h-12v-13Z" fill="none" stroke="#e9dce0" stroke-width="3"/></g>
+  <!-- cap -->
+  <g filter="url(#shadow)"><path d="M1000 772Q1005 700 1080 690Q1157 690 1181 759L1160 783H1010Z" fill="#242126"/><path d="M1008 765Q1067 777 1181 759Q1171 791 1087 800L1008 785Z" fill="#19171b"/><path d="M1064 730l16-21 16 21-6-2v22h-20v-22Z" fill="none" stroke="#f3e5df" stroke-width="3"/></g>
+</svg>
