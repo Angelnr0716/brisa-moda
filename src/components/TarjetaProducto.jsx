@@ -2,12 +2,14 @@ import { pesos } from '../utils/formato.js'
 
 function TarjetaProducto({ producto, onVerDetalle }) {
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl bg-white shadow hover:shadow-md transition-shadow">
-      <img
-        src={producto.imagen}
-        alt={producto.nombre}
-        className="aspect-square w-full object-cover"
-      />
+    <article className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <div className="overflow-hidden">
+        <img
+          src={producto.imagen}
+          alt={producto.nombre}
+          className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
         {producto.nuevo && (
           <span className="w-fit rounded-full bg-marca-100 px-2 py-0.5 text-xs font-semibold text-marca-600">

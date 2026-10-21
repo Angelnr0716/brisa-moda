@@ -1,8 +1,9 @@
 function Encabezado({ cantidad, onAbrirCarrito }) {
   return (
-    <header className="sticky top-0 z-30 border-b border-stone-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-stone-200/50 bg-white/80 backdrop-blur-lg shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
-        <a href="#" className="font-titulo text-2xl font-bold text-mar-900">
+        <a href="#" className="flex items-center gap-2 font-titulo text-2xl font-bold text-mar-900">
+          <img src="/favicon.svg" alt="" className="h-7 w-7" />
           Brisa <span className="text-marca-500">Moda</span>
         </a>
         <nav className="hidden gap-6 text-sm font-medium sm:flex">

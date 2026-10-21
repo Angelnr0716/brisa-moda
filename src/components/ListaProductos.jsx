@@ -15,8 +15,10 @@ function ListaProductos({ productos, cargando, onVerDetalle }) {
 
   return (
     <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-3 lg:grid-cols-4">
-      {productos.map((p) => (
-        <TarjetaProducto key={p.id} producto={p} onVerDetalle={onVerDetalle} />
+      {productos.map((p, i) => (
+        <div key={p.id} className="animar-entrada" style={{ animationDelay: `${i * 80}ms` }}>
+          <TarjetaProducto producto={p} onVerDetalle={onVerDetalle} />
+        </div>
       ))}
     </div>
   )
